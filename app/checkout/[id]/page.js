@@ -52,19 +52,19 @@ const Checkout = ({ params }) => {
 
   return (
     <section className="shadow-2xl  ">
-      <div className="checkout_nav flex items-center">
-        <Link href="/" className="flex gap-2">
-          <Image
-            className="gap-2"
-            src="/Assets/tickticketing.svg"
-            alt="logo"
-            width={199}
-            height={36}
-          />
-        </Link>
-      </div>
       <div className="flex justify-center items-center bg-gray-200 text-gray-900">
         <div className=" relative shadow-2xl p-3 bg-white">
+          <div className="checkout_nav flex items-center flex-shrink-0">
+            <Link href="/" className="flex gap-2">
+              <Image
+                className="gap-2"
+                src="/Assets/tickticketing.svg"
+                alt="logo"
+                width={199}
+                height={36}
+              />
+            </Link>
+          </div>
           <div className="py-2">
             <div className=" text-xl font-bold">Invoice</div>
             <div className="grid grid-cols-1 gap-5">

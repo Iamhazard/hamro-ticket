@@ -16,7 +16,7 @@ body {
     @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
   }
  .checkout_nav {
-          @apply h-[100px] text-center  bg-[#E14658] ;
+          @apply h-[100px] w-[1028px] bg-[#E14658] ;
         }
     .table_checkout {
       @apply  w-[964] h-[227px] top-[-379px] left-[1001px] border-l ;
