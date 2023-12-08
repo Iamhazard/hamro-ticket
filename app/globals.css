@@ -15,18 +15,23 @@ body {
   .app {
     @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
   }
- .checkout_nav {
-          @apply h-[100px] w-[1028px] bg-[#E14658] ;
-        }
-    .table_checkout {
-      @apply  w-[964] h-[227px] top-[-379px] left-[1001px] border-l ;
-    }
+
+  .checkout_nav {
+    @apply h-[100px] w-[1028px] bg-[#E14658];
+  }
+
+  .table_checkout {
+    @apply w-[964] h-[227px] top-[-379px] left-[1001px] border-l;
+  }
+
   .max-container {
     @apply mx-auto max-w-[1440px] h-[80px] gap-2 border-[#252D3C];
   }
+
   .shadowNav {
     box-shadow: 0 2px 16px 0 rgba(33, 43, 54, 0.08), 0 0 1px 1px rgba(6, 44, 82, 0.1)
   }
+
   .padding-container {
     @apply px-2 p-2 md:px-10 lg:px-20 3xl:px-0;
   }
@@ -48,12 +53,12 @@ body {
   }
 
   .regular-14 {
-    @apply text-[14px] font-[500] leading-[20px] ;
+    @apply text-[14px] font-[500] leading-[20px];
   }
 
-    .regular-14_btn {
-      @apply text-[14px] font-[600] leading-[20px];
-    }
+  .regular-14_btn {
+    @apply text-[14px] font-[600] leading-[20px];
+  }
 
 
   .btn-black {
@@ -63,13 +68,15 @@ body {
   .btn-red {
     @apply bg-red-500 text-white rounded-[5px] gap-[6px] py-2 px-3;
   }
-  .btn-movies{
-    @apply  w-[73px] h-[36px] bg-[#22252CCC] text-white ml-[190px] rounded-[6px] gap-[6px] py-2 px-3 ;
-  }
-  .cardDetails{
-    @apply   w-[466px] h-fit shadow-md rounded-md  border-primary bg-secondary;
-  }
-    
 
-  
+  .btn-movies {
+    @apply w-[73px] h-[36px] bg-[#22252CCC] text-white ml-[190px] rounded-[6px] gap-[6px] py-2 px-3;
+  }
+
+  .cardDetails {
+    @apply w-[466px] h-fit shadow-md rounded-md border-primary bg-secondary;
+  }
+
+
+
 }

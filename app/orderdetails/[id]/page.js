@@ -224,10 +224,10 @@ const Page = ({ params }) => {
               <span className="text-white regular-14_btn">0</span>
             </div>
           </div>
-          <div className="border-t border-dark-mode-border-color mb-4"></div>
+          <div className=" border-t border-dark-mode-border-color mb-4"></div>
           <div>
-            <div className="flex justify-between gap-4">
-              <span className="text-[#97ABC0] regular-14">Total</span>
+            <div className=" py-3 flex justify-between gap-4">
+              <span className="  text-[#97ABC0] regular-14">Total</span>
               <span className="regular-14 text-white regular-14_btn">
                 {calculateTotalAmt}
               </span>

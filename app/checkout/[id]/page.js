@@ -2,14 +2,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { BsFillTicketPerforatedFill } from "react-icons/bs";
 
 const Checkout = ({ params }) => {
   const searchParms = useSearchParams();
   const [movie, setMovie] = useState(null);
-  const router = useRouter();
 
   const moviePrice = parseFloat(searchParms.get("price"));
 
@@ -122,7 +121,7 @@ const Checkout = ({ params }) => {
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">Nrs.0.00</td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        Ns.{totalAmt}.00
+                        Nrs.{totalAmt}.00
                       </td>
                     </tr>
                   </tbody>
@@ -157,7 +156,7 @@ const Checkout = ({ params }) => {
                   <BsFillTicketPerforatedFill size={24} color="red" />{" "}
                   <span className="ml-1">1x</span>
                   <h3 className="text-black text-lg font-normal">
-                    Total: <span className="font-bold">Nrs.10000.00</span>
+                    Total: <span className="font-bold">Nrs.350.00</span>
                   </h3>
                 </div>
               </div>
