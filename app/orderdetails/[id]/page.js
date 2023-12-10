@@ -236,7 +236,7 @@ const Page = ({ params }) => {
 
           <div className="border-t border-dark-mode-border-color mb-4"></div>
 
-          <button className="bg-[#E14658] text-white py-2 rounded-lg  w-full mx-auto shadow-button mt-3 px-8 mb-3">
+          <button className="bg-[#f5ef86] text-white py-2 rounded-lg  w-full mx-auto shadow-button mt-3 px-8 mb-3">
             Confirm & Pay
           </button>
         </div>

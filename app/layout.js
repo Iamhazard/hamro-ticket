@@ -6,7 +6,7 @@ import { Providers } from "@/Redux/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "TickTicketing",
+  title: "Hamro ticket",
   description: "Ticket Booking system using Next js",
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         </head>
         <body className={inter.className}>
           <NavBar />
-          {children}
+          <main>{children}</main>
         </body>
       </html>
     </Providers>

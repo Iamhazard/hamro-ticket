@@ -97,16 +97,16 @@ const NavBar = () => {
                   ))}
                 </ul>
               </div>
-              <div className="mt-auto">
-                <div className="pt-6">
+              <div className="mt-auto ">
+                <div className="pt-6 px-4 space-x-2">
                   <Link href="/login">
                     <button type="button" className="btn-black  shadow-xl">
                       Login
                     </button>
-                    <button className="btn-red">Register</button>
                   </Link>
+                  <button className="btn-red">Register</button>
                 </div>
-                <p className="my-4 text-xs text-center text-gray-400">
+                <p className="my-4 text-xs text-center text-black">
                   <span>Copyright © 2023</span>
                 </p>
               </div>
